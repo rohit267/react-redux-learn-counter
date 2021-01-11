@@ -14,3 +14,19 @@ export function incFive() {
     type: types.INCFIVE
   };
 }
+
+export function addToDo(paylaod) {
+  // console.log(paylaod);
+  return {
+    type: types.ADD_TODO,
+    payload: paylaod
+  };
+}
+
+export function removeToDo(paylaod) {
+  // console.log(paylaod);
+  return {
+    type: types.REMOVE_TODO,
+    payload: paylaod
+  };
+}
